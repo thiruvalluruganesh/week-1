@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Gallery</title>
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        figure {
+            text-align: center;
+            width: 30%;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        figcaption {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <div class="gallery">
+        <figure>
+            <img src="https://google.com" alt="Image 1">
+            <figcaption>Image 1</figcaption>
+        </figure>
+        <figure>
+            <img src="https://google.com" alt="Image 2">
+            <figcaption>Image 2</figcaption>
+        </figure>
+        <figure>
+            <img src="https://google.com" alt="Image 3">
+            <figcaption>Image 3</figcaption>
+        </figure>
+    </div>
+</body>
+</html>
